@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: grey;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+
+
+.main-nav .main-menu{
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav .main-menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav .main-menu li a{
+    color: grey;
+    text-transform: uppercase;
+}
+
+.main-nav .main-menu .korpa{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    color: grey;
+    transition: 0.4s;
+}
+
+.korpa:hover{
+    color: white !important;
+    background-color: grey !important;
+    text-decoration: none;
+}
+
+.hero-section{
+    background-image: url("../Myticket/background1.jpg");
+    padding-top: 115px;
+    padding-bottom: 115px;
+    background-size: cover;
+}
+
+
+.hero-section h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+}
+
+.hero-section p{
+    color: white;
+    font-size: 10;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
